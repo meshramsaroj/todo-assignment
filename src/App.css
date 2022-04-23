@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.dashed-line::after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid lightgray;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.list-item:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.app .btn:focus {
+  box-shadow: none;
+}
+
+
